@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kerala Tourism - History</title>
+  <style>
+    :root {
+      --neon-green: #00e676;
+      --dark-bg: #0f2027;
+      --mid-bg: #203a43;
+      --light-bg: #2c5364;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, var(--dark-bg), var(--mid-bg), var(--light-bg));
+      color: #e0f7fa;
+      overflow-x: hidden;
+      padding: 0;
+      margin: 0;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px 20px;
+      color: var(--neon-green);
+      font-size: 2.8rem;
+      text-shadow: 0 0 15px #00e67688;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 30px 20px;
+      animation: fadeInUp 1s ease-in-out;
+    }
+
+    .container h2 {
+      color: var(--neon-green);
+      margin-bottom: 20px;
+      font-size: 2rem;
+    }
+
+    .container p {
+      line-height: 1.7;
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+      color: #c8e6c9;
+    }
+
+    .image-block {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+      margin-top: 30px;
+    }
+
+    .image-block img {
+      width: 100%;
+      max-width: 500px;
+      border-radius: 15px;
+      box-shadow: 0 0 25px rgba(0, 255, 150, 0.2);
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background-color: #001510;
+      color: #ccc;
+      margin-top: 40px;
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(50px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 768px) {
+      header {
+        font-size: 2rem;
+      }
+
+      .container p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    History of Kerala
+  </header>
+
+  <div class="container">
+    <h2>Ancient Roots</h2>
+    <p>
+      Kerala's civilization dates back over 3000 years, flourishing along the Arabian Sea with a strong spice trade network.
+      It was known to Greeks, Romans, Arabs, and Chinese who visited its shores for black pepper and exotic goods.
+    </p>
+
+    <h2>Cultural Influences</h2>
+    <p>
+      The Chera dynasty ruled much of Kerala in early centuries, laying foundations for art, architecture, and language.
+      Later, colonial powers like the Portuguese, Dutch, and British left their mark, blending East and West.
+    </p>
+
+    <div class="image-block">
+      <img src="download1.jpg" alt="Ancient Trade Port">
+      <img src="download2.png" alt="Kerala Temple Architecture">
+    </div>
+
+    <h2>Modern Emergence</h2>
+    <p>
+      Kerala became a state in 1956 and has since become known for its literacy, healthcare, and social development.
+      Today, it’s a shining example of cultural preservation, nature conservation, and responsible tourism.
+    </p>
+
+    <div class="image-block">
+      <img src="download.jpg" alt="Modern Kerala Landscape">
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Kerala Tourism | Explore the Legacy of the Land of Spices
+  </footer>
+
+</body>
+</html>

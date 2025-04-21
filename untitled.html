@@ -1,0 +1,67 @@
+<html lang="en">
+
+<head >
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kerala Tourism - Futuristic</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav>
+    <a href="histry.html">History</a>
+    <a href="destination.html">Destinations</a>
+    
+  </nav>
+
+  <section id="home" class="active">
+    <h1>Welcome to Kerala</h1>
+    <p>"God's Own Country" awaits you with its lush landscapes, peaceful backwaters, and rich culture.</p>
+    <img src="image.jpg.png" alt="Kerala Nature">
+  </section>
+
+  <section id="history">
+    <h1>History of Kerala</h1>
+    <p>
+      Kerala's rich history stretches back over 3000 years. Known for the spice trade, it attracted explorers and traders from Greece, Rome, Arabia, and China.
+      Influenced by the Chera dynasty and colonial powers, Kerala emerged as a culturally unique region.
+    </p>
+    <img src="#" alt="Historic Image of Kerala">
+  </section>
+
+  <section id="arts">
+    <h1>Traditional Arts</h1>
+    <p>
+      Kerala's traditional arts include vibrant dance forms like Kathakali and Mohiniyattam. 
+      Theyyam, Pulikali, and Chakyar Koothu are celebrated during festivals, showcasing Kerala’s spiritual and artistic roots.
+    </p>
+    <img src="#" alt="Kathakali Performance">
+  </section>
+
+  <section id="destinations">
+    <h1>Top Destinations</h1>
+    <p>
+      Discover breathtaking places like Munnar's tea gardens, Alleppey's houseboats, Wayanad’s forests, and the serene beaches of Kovalam.
+    </p>
+    <img src="#" alt="Kerala Destination">
+  </section>
+
+  <footer>
+    &copy; 2025 Kerala Tourism | Designed for the Future ✨
+  </footer>
+
+  <script>
+    const sections = document.querySelectorAll('section');
+
+    function showSection(id) {
+      sections.forEach(section => {
+        section.classList.remove('active');
+      });
+      document.getElementById(id).classList.add('active');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+
+</body>
+</html>
